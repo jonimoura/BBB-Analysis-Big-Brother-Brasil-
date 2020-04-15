@@ -9,17 +9,7 @@ access_token_secret <- "XXXXX"
 
 #Load Libraries
 library("rtweet")
-library("openssl")
-library("NLP")
-library("httpuv")
-library("tm")
-library("stringr")
-library("dplyr")
 library("ROAuth")
-library("base64enc")
-library("base64url")
-library("base64")
-
 
 ## authenticate via web browser
 token <- create_token(
